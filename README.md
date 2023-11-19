@@ -1,9 +1,9 @@
 # sql-challenge
 
-EmployeeSQL contains 2 SQL files (employee_tables.sql) and ( ): 
-	1. employee_tables.sql - file builds builds and creates the tables that hold employees 		related data from imported civ files. Relationships are defined between tables and columns 	using primary keys, foreign keys, and composite keys.
+EmployeeSQL contains 2 SQL files (employee_table.sql) and (employee_query.sql): 
+	1. employee_table.sql - file builds builds and creates the tables that hold employees 		related data from imported csv files. Relationships are defined between tables and columns 	using primary keys, foreign keys, and composite keys.
 	
-	2. 
+	2. employee_query.sql - Part 2 (engineering) and 3 (analysis) of this assignment. Importing 	csv files. Query by 8 data analysis questions.
 
 Background: conduct research on employees working in 80's and 90's at company. Only data remaining are 6 CSV files
 
@@ -17,7 +17,7 @@ Data Modeling: after inspecting CSV files, create ERC using Quick Database Diagr
 
 Data Engineering: Create table schema for each of the CSV files with specific data types, primary keys, foreign keys, and constraints. (Hint: import data in same order as corresponding tables got created. Remember to account for the headers when doing the imports.)
 
-Data Analysis: 
+Data Analysis 8 query/analysis questions: 
 
 List the employee number, last name, first name, sex, and salary of each employee.
 
